@@ -1,0 +1,20 @@
+
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and API keys
+.env
+.env.*
+
+# Local documents and databases
+data/*
+!data/.gitkeep
+chroma_db/
+
+# Testing and IDE files
+.pytest_cache/
+.vscode/
